@@ -3,12 +3,12 @@
 namespace Admin\Extend\AdminAudit;
 
 use Admin\Page;
-use App\Admin\Controllers\Controller;
-use App\Admin\Delegates\Card;
-use App\Admin\Delegates\Form;
-use App\Admin\Delegates\SearchForm;
-use App\Admin\Delegates\ModelTable;
-use App\Admin\Delegates\ModelInfoTable;
+use Admin\Controllers\Controller;
+use Admin\Delegates\Card;
+use Admin\Delegates\Form;
+use Admin\Delegates\SearchForm;
+use Admin\Delegates\ModelTable;
+use Admin\Delegates\ModelInfoTable;
 use OwenIt\Auditing\Models\Audit;
 use Bfg\Attributes\Attributes;
 
